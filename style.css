@@ -146,6 +146,10 @@ a{
     scroll-behavior: smooth;
     height:52vh;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
 .column60 img{
     width: 96%;
     margin-left: 1%;
