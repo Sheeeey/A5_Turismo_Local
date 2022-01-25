@@ -1,0 +1,236 @@
+body{
+    margin:0%;
+}
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    height: 120%;
+    background-color: rgb(226, 200, 112);
+}
+
+#demoObject {
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #D1D1D1;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
+#demoObject2 {
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #FFE3E8;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
+
+
+
+.header{
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height:50vw;
+    min-height:400px;
+    max-height:550px;
+    min-width:300px;
+    color:#eee;
+ }
+.header:after{
+    content:"";
+    width:100%;
+    height:40%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+    background:#1B2030 url(https://static.guiarepsol.com/fichas-gr/media/thumbnails/filer_public/9b/a6/9ba6a8cc-3608-4654-9b32-d72f5cfea580/castellbisbal-pont_del_diable_1906x600_q75_middle.jpg) top center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    animation: grow 60s  linear 10ms infinite;
+    transition:all 0.2s ease-in-out;
+    z-index:-2
+}
+.header a{
+    color:#eee
+}
+.sides, .info{
+    flex: 0 0 auto;
+    width:50%
+}
+.info{
+    width:100%;
+    padding:15% 10% 0 10%;
+    text-align:center;
+    text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+.author{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url(https://www.egames.news/__export/1639180940621/sites/debate/img/2021/12/10/naruto_un_fan_art_nos_muestra_una_versixn_xnica_de_tsunade.jpg_423682103.jpg) center no-repeat;
+    background-size:cover;
+    box-shadow:0 2px 3px rgba(0,0,0,0.3);
+    margin-bottom:3px
+}
+.info h4, .meta{
+    font-size:0.7em
+}
+  
+@keyframes grow{
+    0% { transform:scale(1)}
+    50% { transform:scale(1.2)}
+}
+.content{  
+    padding:5% 10%;
+    text-align:justify
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-3{
+    width: 20%;
+    float: left;
+    background-color: rgb(226, 200, 112);
+    
+}
+
+.margin1{
+    margin-left: 15%;
+}
+.margin2{
+    margin-right: 15%;
+}
+.margin3{
+    margin-left: 5%;
+}
+.margin4{
+    margin-left: 10%;
+}
+
+.padding{
+    padding-bottom: 53.5%;
+}
+.column60{
+    width: 60%;
+    float: left;
+    background-color: rgb(243, 183, 144);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height:52vh;
+}
+.column60 img{
+    width: 96%;
+    margin-left: 1%;
+    height: 40vh;
+}
+.borderimage{
+    border-color:plum rebeccapurple teal;
+    border-width: 10px;
+    border-style: solid; 
+
+}
+.borderimage2{
+    border-color:rgb(19, 54, 252) rgb(30, 194, 145) rgb(15, 211, 168);
+    border-width: 10px;
+    border-style: solid; 
+}
+
+
+.containerphoto{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    object-fit:contain;
+    height: 40vh;
+}
+
+.column-2{
+    width: 50%;
+    float: left;    
+}
+.column-2 img{
+    width: 100%;
+}
+.colorcolumn-left{
+    float: left;
+    height: 100vh;
+    background-color: rgb(226, 200, 112);
+    position:absolute;
+    width: 20%;
+    z-index: -3;
+}
+
+li{
+    margin-bottom: 6.5%;
+}
+h2{
+    text-align: center;
+}
+.column60 h3{
+    text-align: center;
+}
+
+.column60 h2{
+    text-align: center;
+    margin-left: 20%;
+}
+.marginLugar{
+    margin-left: 40%;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.582);
+    text-shadow: rgba(0, 0, 0, 0.63);
+}
+#borderDemo {
+    border: 2px dashed #6A6A6A;
+    margin-right: 10%;
+}
+#borderDemo2 {
+    border: 2px dashed #6A6A6A;
+    margin-right: 20%;
+    
+}
+@media only screen and (max-width: 600px) {
+        .column-2{
+            width: 50%;
+        }
+        .column-3{
+            width: 100%;
+        }
+     
+        .column60{
+            width: 100%;
+        }
+
+    }
